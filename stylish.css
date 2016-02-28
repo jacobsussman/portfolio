@@ -1,0 +1,744 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+body {        
+    font-family: "Helvetica Neue";
+}
+
+#mobileNav{
+	padding-top:10px;
+	line-height: 1.3;
+	position:relative;
+	top:7px;
+}
+
+
+#mobileNav li {
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+
+
+
+
+
+h1 {
+	float: left;
+	font-size: 2.25em;
+	font-weight: 600;
+	vertical-align: baseline;
+	line-height: 1;
+
+
+	
+}
+#mobileNavLink {
+
+	width: 38px;
+	float: right;
+
+
+}
+
+#titleBar{
+	
+	width:87.5%;
+	height:70px;
+	display: flex;
+    align-items:center;
+	justify-content: space-between;
+	position:relative;
+	top:6px;
+	margin:auto;
+}
+
+
+
+#bio h3{
+	text-align: left;
+	font-style:italic;
+	font-weight: 200;
+	line-height: 1.55;
+	font-size: 1.40625em;
+	width:87.5%;
+	margin:auto;
+	position:relative;
+	top:18px;
+
+}
+
+.title {
+	widthL 100%;
+	clear: both;
+	background-color: #5E8EF2;
+	height:120px;
+	
+}
+
+h2 {
+	font-size: 2.25em;
+	font-weight: 400;
+	color: white;
+
+
+}
+#hamburger{
+	
+	max-width:100%;
+	
+}
+
+#mobileNav {
+	display: none;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+#desktopNav{
+	display: none;
+}
+
+#slideshow {
+	clear:both;
+}
+
+.connect {
+	clear: both;
+	width: 100%;
+	background-color: #3AF7AE;
+	height:68px;
+	margin-top: 2px;
+
+}
+
+.innerBlock {
+	width:100%;
+	margin-right: 2px;
+		background-color: #FF7272;
+
+}
+
+.left {
+	    float:left;
+	
+
+}
+
+.center {
+}
+
+.right {
+	float:right;
+}
+
+
+
+h4 {
+	font-size: 1.75em;
+	color: white;
+	margin-left: 25px;
+}
+
+.blue {
+	color:#5E8EF2;
+}
+.red {
+	color:#FF7272;
+}
+.green {
+	color:#3AF7AE;
+}
+a:hover {
+	color:#F6ED60;
+	
+}
+
+.conext {
+
+	position: relative;
+	top:18px;
+}
+
+#bio {
+	width:100%;
+	height: 175px;
+	background-color:#5E8EF2;
+}
+
+
+
+
+
+
+
+#mobileNav2 {
+	width:100%;
+	height: 60px;
+	margin-top: 2px;	
+}
+.mobileBlock {
+	width: 32.9%;
+	background-color: #FF7272;
+	float:left;
+	height: 60px;	
+}
+
+.spacer {
+	width:0.65%;
+	float:left;
+	background-color: white;
+	height: 60px;
+
+}
+footer {
+	background-color: #5E8EF2;
+	color:white;
+	text-align:center;
+	margin-top:2px;
+}
+
+h5 {
+	font-size: 1.40625em;
+	font-weight:200;
+	padding-top:15px;
+}
+
+footer p {
+	font-size: 0.875em;
+	font-weight: 200;
+	margin-bottom:8px;
+	
+	
+}
+
+#footSpace {
+	height:12px;
+}
+
+.social {
+	position: relative;
+	bottom:15px;
+}
+
+.iconWrapper {
+	width:48%;
+	float:right;
+	margin-right:30px;
+}
+
+.social4 {
+	float:right;
+}
+
+.social3 {
+	float:right;
+	padding-right:11.111111111%;
+}
+
+.social2 {
+	padding-left:11.111111111%;
+}
+
+#leftMargin {
+	float:left;
+	width:25px;
+	
+}
+
+
+
+button {
+	background:none;
+	border:none; 
+    font: inherit;
+	font-size: 1.40625em;
+	font-style: italic;
+	
+}
+
+.buttonMargin {
+	width: 8%;
+	height: 56px;
+}
+
+.leftButton {
+	margin-right: 3.7%;
+}
+
+.button-group {
+	margin-top: 10px;
+	width: 80%;
+	max-width:400px;
+	
+    display: flex;
+	
+    justify-content:space-between; 
+
+}
+
+.grid-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 56.25%;
+	display: flex;
+    justify-content:center; 	
+	
+}
+
+.grid-item { width: 100%; }
+	
+
+
+.midButton {
+	margin-right: 3.7%;
+	margin-left: 3.7%;
+}
+
+.rightButton {
+	margin-left: 3.7%;
+}
+
+.titleMargin {
+	width: 6.25%;
+	height:63px;
+}
+
+
+
+.margin {
+	width:6.25%;
+	height:10px;
+}
+
+button:active {
+/*
+    position: relative;
+    top: 1px;
+*/
+}
+
+#buttonWrapper {
+	display: flex;
+    justify-content:center; 
+}
+
+button:focus {
+	outline: none;
+	padding-bottom: 1px;
+	border-bottom: 2px solid black;
+}
+
+.grid {
+	
+}
+
+.grid-item img {
+	max-width:100%;
+	
+}
+
+
+
+.remnants {
+	background-image:  url("media/photos/manNguyen.jpg");
+}
+
+.parque {
+	background-image:  url("media/photos/parque.jpg");
+}
+
+.eyre {
+	background-image:  url("media/photos/eyrewalker-v2-(red.jpg");
+}
+
+.comic {
+	background-image:  url("media/photos/Boston%20Comic%20Con.jpg");
+}
+
+.wesleyan {
+	background-image:  url("media/photos/Wesleyan%20=%20Impact.jpg");
+}
+
+.me {
+	background-image:  url("media/photos/Screen%20Shot%202015-12-20%20at%2015.54.26.jpg");
+}
+
+.wayland {
+	background-image:  url("media/photos/Five%20Miles%20Astride.jpg");
+}
+
+.film {
+	
+}
+
+.micrex {
+	background-image:  url("media/photos/micrex.jpg");
+}
+
+.grid-item h3 {
+	margin:auto;
+	z-index: 10;
+	position:relative;
+	bottom:150px;
+	width:75%;
+	text-align: center;
+	font-size: 2.25em;
+	font-weight: 500;
+}
+
+
+	
+h3 {
+	color:white;
+
+}
+
+.black {
+	color:black;
+}
+
+
+
+
+
+
+
+#skills2 {
+	width:100%;
+	height: 175px;
+	background-color:#FF7272;
+	margin-top:2px;
+
+
+	
+}
+
+.wrapper {
+	
+	width:87.5%;
+	margin:auto;
+	
+}
+
+#skills h3 {
+	
+}
+
+#skills #header {
+	font-weight:300;
+
+}
+
+#skillz {
+	width:100%;
+	background-color:#FF7272;
+	margin-top:2px;
+	height: 175px;
+	
+
+}
+
+#skillSpacer {
+	height:170px;
+	width:11%;
+	float:right;
+}
+
+#outline {
+		border: 1px solid white;
+
+}
+
+.bold {
+	font-weight:400;
+	padding-bottom: -5px;
+	border: 2px solid white;
+	padding-top:6px;
+	padding-left: 4px;
+	padding-right: 4px;
+	line-height: 1.1
+}
+
+.clearLeft {
+	clear:left;
+}
+
+.padded {
+	margin-top:10px;
+}
+
+.clear {
+	
+}
+
+#getInTouch {
+	width:100%;
+	height: 215px;
+	background-color:#5E8EF2;
+	color:white;
+
+}
+
+#getInTouch h2 {
+	
+	line-height: 1.55;
+	width:87.5%;
+	margin:auto;
+	position:relative;
+	top:18px;
+	font-weight: 300;
+	
+}
+
+
+#getInTouch p {
+	
+	font-size: 1.40625em;
+
+	width:87.5%;
+	margin:auto;
+	position:relative;
+	top:20px;
+	font-style: italic;
+	font-weight:200;
+	
+	
+	
+}
+
+#email {
+	background-color:#FF7272;
+	width:100%;
+	
+	color:white;
+	margin-top:2px;
+	
+	
+}
+
+input {
+	outline:none;
+	border:none;
+	box-shadow: none;
+	background-color: #F6ED60;
+	height:25px;
+	font-family: "Cooper Hewitt";
+	font-size: 1em;
+	width:70%;
+}
+input.middle:focus {
+	outline-width: 0;}
+
+form {
+	font-family: "Cooper Hewitt";
+	
+}
+
+input .blueButton {
+	background-color:#5E8EF2;
+
+}
+
+.contactSpacer {
+	width:100%;
+	height:30px;
+}
+
+form p {
+	font-size: 1.40625em;
+
+}
+
+.formSpacer {
+	width:100%;
+	height:50px;
+}
+
+#education {
+	width:100%;
+	height: 133px;
+	background-color:#3AF7AE;
+	margin-top:2px;
+
+}
+
+.format {
+	font-size: 1.40625em;
+	font-weight:200;
+	position:relative;
+	top: 18px;
+	color:white;
+	line-height: 2;
+}
+
+.italic {
+	italic;
+}
+
+.full {
+	width:100%;
+	float:left;
+	clear:left;
+}
+
+#desktopNav li {
+	float:right;
+	margin-left:8%;
+	font-size: 1.40625em;
+	
+}
+
+#portfolioSpacer {
+	display:none;
+	width:100%;
+}
+
+
+@media only screen and (min-width: 550px) {
+	#mobileNavLink{
+		width:38px;
+	}
+	
+}
+
+@media only screen and (min-width: 700px) {
+	#mobileNavLink {
+		display:none;
+	}
+	
+	#desktopNav{
+		display: block;
+		float:right;
+		width: 50%;
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+
+	.grid-item { 
+		width: 50%;
+		padding-top: 28.125%;
+
+	}
+	
+    
+	#titleBar{
+			height:100px;
+			padding-top: 10px;
+					padding-bottom: 5px;
+
+
+	}
+	#getInTouch {
+		width:50%;
+		float:left;
+	}
+	#email {
+		width:50%;
+		float:right;
+		margin-top:0px;
+	}
+	#portfolioSpacer{
+		display:block;
+		height:15px;
+		
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+
+	.grid-item { 
+		width: 33.33333%;
+		padding-top:18.75%;
+
+	}
+	
+	
+    
+
+}
+#desktopNav .green {
+	color:black;
+	
+}
+#desktopNav .red {
+	color:black;
+	
+}
+#desktopNav .blue {
+	color:black;
+	
+}
+
+@media only screen and (max-width: 350px) {
+	body{
+		
+		font-size:14px;
+	}
+	
+	
+	
+}
