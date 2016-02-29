@@ -51,6 +51,7 @@ table {
 
 body {        
     font-family: "Cooper Hewitt";
+
 }
 
 #mobileNav{
@@ -66,7 +67,7 @@ body {
 	font-size: 2em;
 	text-align: center;
 	line-height: 1.5em;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 a {
@@ -82,9 +83,11 @@ a {
 h1 {
 	float: left;
 	font-size: 2.25em;
-	font-weight: 400;
+	font-weight: 500;
 	vertical-align: baseline;
 	line-height: 1;
+	padding-left: 30px;
+	
 
 
 	
@@ -93,13 +96,13 @@ h1 {
 
 	width: 38px;
 	float: right;
+	padding-right:30px;
 
 
 }
 
 #titleBar{
 	
-	width:87.5%;
 	height:70px;
 	display: flex;
     align-items:center;
@@ -134,9 +137,12 @@ h1 {
 }
 
 h2 {
+	width:100%;
 	font-size: 2.25em;
-	font-weight: 400;
-	color: white;
+	font-weight: 500;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
 
 
 }
@@ -165,14 +171,7 @@ h2 {
 	clear:both;
 }
 
-.connect {
-	clear: both;
-	width: 100%;
-	background-color: #3AF7AE;
-	height:68px;
-	margin-top: 2px;
 
-}
 
 .innerBlock {
 	width:100%;
@@ -197,9 +196,14 @@ h2 {
 
 
 h4 {
-	font-size: 1.75em;
-	color: white;
-	margin-left: 25px;
+	font-size:  1.40625em;
+	font-weight: 300;
+	margin: auto;
+	font-style: italic;
+	width:100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .blue {
@@ -247,23 +251,24 @@ a:hover {
 }
 
 .spacer {
-	width:0.65%;
-	float:left;
-	background-color: white;
+	width:100%;
+	margin:auto;
 	height: 60px;
 
 }
 footer {
-	background-color: #5E8EF2;
-	color:white;
-	text-align:center;
-	margin-top:2px;
 }
 
 h5 {
-	font-size: 1.40625em;
-	font-weight:200;
-	padding-top:15px;
+	font-size: 1.4em;
+	font-weight:500;
+	padding-top:20px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	line-height: 1.8em;
+
+	
 }
 
 footer p {
@@ -279,27 +284,19 @@ footer p {
 }
 
 .social {
-	position: relative;
-	bottom:15px;
+	padding-left: 15px;
 }
 
 .iconWrapper {
-	width:48%;
-	float:right;
-	margin-right:30px;
 }
 
 .social4 {
-	float:right;
 }
 
 .social3 {
-	float:right;
-	padding-right:11.111111111%;
-}
+	}
 
 .social2 {
-	padding-left:11.111111111%;
 }
 
 #leftMargin {
@@ -337,7 +334,8 @@ button {
 	
     justify-content:space-between; 
 
-	padding-bottom: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
 }
 
 .grid-item {
@@ -448,7 +446,7 @@ button:focus {
 	width:75%;
 	text-align: center;
 	font-size: 2.25em;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 
@@ -661,7 +659,10 @@ form p {
 
 @media only screen and (min-width: 550px) {
 	#mobileNavLink{
-		width:38px;
+	}
+	h1{
+		padding-left: 40px;
+
 	}
 	
 }
@@ -676,12 +677,11 @@ form p {
 		float:right;
 		width: 50%;
 		font-weight: 300;
+		padding-right:40px;
 	}
 
-}
-
-@media only screen and (min-width: 800px) {
-
+	
+	
 	.grid-item { 
 		width: 50%;
 		padding-top: 28.125%;
@@ -692,7 +692,7 @@ form p {
 	#titleBar{
 			height:100px;
 			padding-top: 10px;
-					padding-bottom: 5px;
+			padding-bottom: 2px;
 
 
 	}
@@ -712,7 +712,19 @@ form p {
 	}
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 800px) {
+
+	h1{
+		padding-left: 70px;
+
+	}
+	#desktopNav
+	{
+		padding-right: 70px;}
+
+}
+
+@media only screen and (min-width: 1200px) {
 
 	.grid-item { 
 		width: 33.33333%;
@@ -736,6 +748,17 @@ form p {
 	color:black;
 	
 }
+@media only screen and (min-width: 575px) {
+	.iconBar{
+		align-content: center;
+		margin: auto;
+	}
+	.footer{
+		align-content: center;
+		margin: auto;
+	}
+	
+}
 
 @media only screen and (max-width: 350px) {
 	body{
@@ -746,6 +769,75 @@ form p {
 		padding-top: 0px;
 	}
 	
+	h1{
+		padding-left: 23px;
 	
+	}
+	#mobileNavLink{
+		padding-right: 23px;
+	}
 	
+}
+
+.footer {
+	float: left;
+	font-size: 1.25em;
+	font-weight: 400;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: .95em;
+
+
+}
+
+.iconBar {
+	float: right;
+	padding-right: 50px;
+	padding-top: 43px;
+}
+
+.pantry {
+	background-image:  url("media/photos/pantry.png");
+
+}
+
+.nopadding {
+	padding-top: 0px;
+}
+
+.content img {
+	width: 100%;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.banner {
+	width: 50%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.content p {
+	font-size: 1.2em;
+	font-weight:300;
+	padding-top:15px;
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	line-height: 1.8em;
+
+	
+}
+
+.footer span {
+	padding-left: 10px;
+	font-size: .93em;
+}
+
+.video {
+	width:60%;
+	margin: auto;
+	padding-top: 30px;
 }

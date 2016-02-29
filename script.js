@@ -25,9 +25,17 @@ $(document).ready(function () {
 		$('.grid').isotope({ filter: filterValue });
 	});
 	
+	$(".grid-item").hover(function () {
+		(this).velocity({
+			p: {background: "black" },
+			o: { duration: 500 }
+		});
+
+	});
 	
-	
-	
+    // Target your .container, .wrapper, .post, etc.
+	$(".video").fitVids();
+
 });
 
 

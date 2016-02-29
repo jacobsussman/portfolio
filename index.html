@@ -3,97 +3,159 @@
 <head>
 <title>Jacob Sussman</title>
 <link rel="stylesheet" href="stylish.css">
-<link rel="stylesheet" href="unslider.css">
-<link rel="stylesheet" href="unslider-dots.css">
-<script src="jquery-2.1.4.min.js"></script>
+<script src="plugins/jquery-2.1.4.min.js"></script>
 <script src="script.js"></script>
-<script src="velocity.min.js"></script>
-<script src="unslider-min.js"></script>
-<script src="isotope.pkgd.min.js"></script>
+<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+<script src="plugins/velocity.min.js"></script>
+<script src="plugins/isotope.pkgd.min.js"></script>
+<script src="plugins/unslider-min.js"></script>
+<link rel="stylesheet" href="plugins/unslider.css">
+<link rel="stylesheet" href="plugins/unslider-dots.css">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-    
+
 <body>
-	<div id="leftMargin"></div>
 	<nav>
+		
 		<ul id="mobileNav">
 			<li class="blue">
-				<a href="about.html">About</a>
+				<a href="about.html">about</a>
 			</li>
 			<li class="red">
-				<a href="portfolio.html">Portfolio</a>
+				<a href="index.html">portfolio</a>
 			</li>
 			<li class="green">
-				<a href="contact.html">Contact</a>
+				<a href="mailto:jacob@sussman.media">contact</a>
 			</li>
 		</ul>
+		
 		<div id="titleBar">
 			<h1>
 				<a href="index.html">Jacob Sussman</a>
 			</h1>
 			<div id="mobileNavLink">
 				<a href="#">
-					<img id="navButton" src="media/icons/Group.svg">
+					<img id="hamburger" src="../media/icons/Group.svg">
 				</a>
 			</div>
-		</div>
-		<ul id="desktopNav">
-			<li>About</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
-	
-	<div id="page">
-		<div class="title">
-			<h2>Filmmaker and Interactive Designer</h2>
-		</div>
-		<div id="bio">
-			<h3>I am a creative coder passionate about documentaries, digital journalism, and the intersection of technology and social justice.</h3>
-		</div>
-		<div class="my-slider">
-			<ul>
-				<li>My slide</li>
-				<li>Another slide</li>
-				<li>My last slide</li>
+			<ul id="desktopNav">
+				<li>
+					<a href="mailto:jacob@sussman.media">contact</a>
+				</li>
+				<li >
+					<a href="about.html">about</a>
+				</li>
+				<li>
+					<a href="index.html">portfolio</a>
+				</li>
+				
 			</ul>
-		</div>		
-		<div class="connect">
-			<h4 class="conext">Connect:</h4>
-			<div class="iconWrapper">
-				<a href="https://twitter.com/jsussle">
-					<img class="social" src="media/icons/twitter.svg">
-				</a>
-				<a href="https://www.instagram.com/jsussl/">
-					<img class="social social2" src="media/icons/instagram.svg">
-				</a>
-				<a href="https://vimeo.com/jacobsussman">
-					<img class="social social4" src="media/icons/linkedin.svg">
-				</a>
-				<a href="https://www.linkedin.com/in/sussmanjacob">
-					<img class="social social3" src="media/icons/vimeo.svg">
-				</a>
 
-			</div>
+		</div>
+
+		
+	</nav>
+				
+	<div id="buttonWrapper">
+		<div class="button-group filter-button-group">
+			<a href="#">
+				<button data-filter="*" class="">all</button>
+			</a>
+			
+			<a href="#">
+				<button data-filter=".film" class="red">film</button>
+			</a>
+			<a href="#">
+				<button data-filter=".photo" class="green">photo</button>
+			</a>	
+			<a href="#">
+				<button data-filter=".interactive" class="blue">interactive	</button>
+			</a>
 		</div>
 	</div>
 	
+	<div id="portfolioSpacer"></div>
+	
+	<div class="grid">
+		<a href="projects/remnants.html">
+			<div class="grid-item remnants interactive photo">
+<!--			<h3>remnants of the american war</h3>-->
+			</div>
+		</a>
+		<a href="projects/parque.html">
+			<div class="grid-item parque film">
+<!--				<h3>parque</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item eyre interactive photo">
+<!--				<h3>eyrewalker</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item comic film">
+<!--				<h3>boston comic con</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item wesleyan film">
+<!--				<h3 class="black">wesleyan = impact</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item me interactive">
+<!--				<h3 class="black">personal portfolio</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item wayland film">
+<!--				<h3 class="black">five miles astride the river</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item micrex film">
+				
+<!--				<h3>micrex</h3>-->
+			</div>
+		</a>
+		<a href="#">
+			<div class="grid-item pantry film">
+<!--				<h3>pierce's pantry</h3>-->
+			</div>
+		</a>
+	</div>
 	<footer>
-		<h5>Jacob Sussman</h5>
-		<div id="footSpace"></div>
-		<p>
-			<a href="mailto:sussmanjacob@gmail.com">sussmanjacob@gmail.com</a>
-		</p>
-		<p>
-			<a href="tel:+15083148934">508 314-8934</a>
-		</p>
-		<p>149 Pelham Island Road,<br>Wayland MA 01778</p>
-		<div id="footSpace"></div>
-		<div id="footSpace"></div>
+		
+		<div class="iconBar">
+			
+				
+				<a href="http://github.com/jsussl">
+					<img class="social" src="media/icons/github.svg">
+				</a>
+				<a href="http://vimeo.com/jacobsussman">
+					<img class="social" src="media/icons/linkedin.svg">
+				</a>
+				<a href="http://linkedin.com/in/sussmanjacob">
+					<img class="social" src="media/icons/vimeo.svg">
+				</a>
+				<a href="http://www.instagram.com/jsussl/">
+					<img class="social" src="media/icons/instagram.svg">
+				</a>
+				<a href="http://twitter.com/jsussle">
+					<img class="social" src="media/icons/twitter.svg">
+				</a>
 
+		</div>
+	
+		<p class="footer">design + code by Jacob Sussman <span> © 2016</span></p>
+<!--		<p class="footer">© 2016</p>-->
 
+		
+	
+	
 	</footer>
-
+	
+	
 	
 </body>
 </html>

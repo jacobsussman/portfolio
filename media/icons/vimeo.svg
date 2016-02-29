@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval 1</title>
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>vimeo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="iPhone-6" sketch:type="MSArtboardGroup" transform="translate(-265.000000, -572.000000)">
-            <circle id="Oval-1" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="280" cy="587" r="15"></circle>
-            <g id="1450572549-vimeo-online-social-media" sketch:type="MSLayerGroup" transform="translate(271.000000, 581.000000)" fill="#000000">
-                <g id="Flat_copy" sketch:type="MSShapeGroup">
-                    <path d="M0.730125,5.00464286 C0.730125,5.00464286 2.2381875,3.87267857 2.7410625,4.43839286 C3.243375,5.00464286 5.1620625,11.8376786 5.80275,13.0976786 C6.361875,14.2033929 7.9036875,15.6642857 9.5945625,14.6207143 C11.2843125,13.5771429 16.9048125,9.0075 17.9105625,3.61125 C18.91575,-1.78339286 11.147625,-0.653571429 10.3246875,4.04678571 C12.3811875,2.87089286 13.4791875,4.52410714 12.42675,6.39696429 C11.376,8.26767857 10.4158125,9.4875 9.9140625,9.4875 C9.4123125,9.4875 9.0264375,8.23553571 8.4515625,6.04767857 C7.858125,3.78589286 7.8609375,-0.288214286 5.391,0.173571429 C3.061125,0.609107143 0,4.09071429 0,4.09071429 L0.730125,5.00464286 L0.730125,5.00464286 Z" id="Shape"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="vimeo" sketch:type="MSLayerGroup">
+            <g id="Page-2" sketch:type="MSShapeGroup">
+                <g id="iPhone-6">
+                    <circle id="Oval-1" fill="#000000" cx="15" cy="15" r="15"></circle>
+                    <g id="1450572549-vimeo-online-social-media" transform="translate(6.000000, 9.000000)" fill="#FFFFFF">
+                        <g id="Flat_copy">
+                            <path d="M0.730125,5.00464286 C0.730125,5.00464286 2.2381875,3.87267857 2.7410625,4.43839286 C3.243375,5.00464286 5.1620625,11.8376786 5.80275,13.0976786 C6.361875,14.2033929 7.9036875,15.6642857 9.5945625,14.6207143 C11.2843125,13.5771429 16.9048125,9.0075 17.9105625,3.61125 C18.91575,-1.78339286 11.147625,-0.653571429 10.3246875,4.04678571 C12.3811875,2.87089286 13.4791875,4.52410714 12.42675,6.39696429 C11.376,8.26767857 10.4158125,9.4875 9.9140625,9.4875 C9.4123125,9.4875 9.0264375,8.23553571 8.4515625,6.04767857 C7.858125,3.78589286 7.8609375,-0.288214286 5.391,0.173571429 C3.061125,0.609107143 0,4.09071429 0,4.09071429 L0.730125,5.00464286 L0.730125,5.00464286 L0.730125,5.00464286 Z" id="Shape"></path>
+                        </g>
+                    </g>
                 </g>
             </g>
         </g>
