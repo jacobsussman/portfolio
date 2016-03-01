@@ -19,6 +19,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	
 }
+@font-face {
+  	font-family: "Cooper Hewitt";
+	src: url("font/CooperHewitt-Book.eot");
+  	src: local("☺"),
+    url("font/CooperHewitt-Book.woff") format("woff"),
+    url("CooperHewitt-Book.svg") format("svg");
+  }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -181,9 +188,12 @@ h2 {
 }
 
 .left {
+	text-align: left;
+/*
 	    float:left;
-		text-align: left;
 		width:30%;
+*/
+
 	
 
 }
@@ -194,11 +204,7 @@ h2 {
 }
 
 .right {
-	float:right;
-	text-align: right;
-		width:30%;
-	position:relative;
-	bottom: 60px;
+	
 	
 }
 
@@ -266,15 +272,12 @@ a:hover {
 
 }
 footer {
+	width:100%;
 }
 
 h5 {
 	font-size: 1.4em;
-	font-weight:500;
-	padding-top:20px;
-	width: 50%;
-	margin: auto;
-	text-align: center;
+	font-weight:400;
 	line-height: 1.8em;
 
 	
@@ -293,7 +296,13 @@ footer p {
 }
 
 .social {
-	padding-left: 15px;
+/*
+	width:auto;
+	margin:auto;
+*/
+	padding-left: 8px;
+		padding-right: 8px;
+
 }
 
 .iconWrapper {
@@ -757,16 +766,35 @@ form p {
 	color:black;
 	
 }
-@media only screen and (min-width: 575px) {
-	.iconBar{
-		align-content: center;
-		margin: auto;
+.iconBar {
+	width: 100%;
+	padding-top: 23px;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+
 	}
-	.footer{
-		align-content: center;
-		margin: auto;
-	}
+
+@media only screen and (min-width: 650px) {
+
+.iconBar {
+		float:right;
+		width:30%;
+		padding-right: 50px;
+		padding-top: 0px;
 	
+	  	-webkit-justify-content: flex-end; /* Safari */
+		justify-content:         flex-end;
+		position: relative;
+		bottom:8px;
+
+
+}
+}
+
+@media only screen and (max-width: 575px) {
+	
+
 }
 
 @media only screen and (max-width: 350px) {
@@ -791,21 +819,30 @@ form p {
 
 
 .footer {
-	float: left;
 	font-size: 1.25em;
 	font-weight: 400;
-	padding-left: 50px;
 	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	font-size: .95em;
-
+	width: 100%;
+	text-align: center;
 
 }
 
-.iconBar {
-	float: right;
-	padding-right: 50px;
-	padding-top: 43px;
+@media only screen and (min-width: 650px) {
+
+	
+.footer {
+		float: left;
+		width: 50%;
+		padding-left: 50px;
+		padding-top: 0px;
+		padding-bottom: 30px;
+		font-size: .95em;
+		text-align: left;
+
+
+}
 }
 
 .pantry {
@@ -824,13 +861,7 @@ form p {
 	padding-bottom: 10px;
 }
 
-.banner {
-	width: 60%;
-	margin: auto;
-	padding-bottom: 30px;
-	padding-top: 30px;
 
-}
 
 .content p {
 	font-size: 1.2em;
@@ -916,6 +947,14 @@ iframe,
 	margin:auto;
 	padding-top:30px;
 }
+	
+.banner {
+	width: 60%;
+	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 15px;
+
+}
 @media only screen and (max-width: 900px) {
 
 	.divHolder {
@@ -927,4 +966,115 @@ iframe,
 	
 
 
+}
+
+.navHolder {
+	-webkit-flex-direction: row;
+	display: -webkit-flex; 
+	flex-direction: row;
+	display: flex;
+	justify-content:  space-between;
+	-webkit-justify-content:  space-between;
+	width:95%;
+	margin:auto;
+}
+
+.oldH5 {
+	font-size: 1.4em;
+	font-weight:500;
+	padding-top:20px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	line-height: 1.8em;
+
+	
+}
+
+.halfSpacer {
+	width:100%;
+	margin:auto;
+	height: 30px;
+}
+
+h6 {
+	font-size: 1.4em;
+	font-weight:500;
+	padding-top:20px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+.nav {
+	max-width: 200px;
+	text-align: center;
+	
+}
+
+.nudgeLeft {
+	position: relative;
+	right:30px;
+}
+@media only screen and (max-width: 550px) {
+	
+	h2{max-width:90%;
+	}
+	h4{max-width:90%;
+	}
+	
+	
+	
+}
+
+.portrait {
+	width:55%;
+	float:left;
+}
+
+.bio {
+	width:45%;
+	float:right;
+}
+
+.profPic {
+	width:65%;
+	float:right;
+	padding-right: 90px;
+}
+
+.bio p {
+	font-size: 1.2em;
+	font-weight:300;
+	padding-bottom:15px;
+	width: 80%;
+	text-align: left;
+	line-height: 1.8em;
+	
+}
+
+.bioIconBar { float:left;
+	padding-right: 30px;
+		padding-top: 0px;
+	
+	  	-webkit-justify-content: flex-end; /* Safari */
+		justify-content:         flex-end;
+	
+}
+
+.floatLeft {
+	float:left;
+}
+
+.emailBio {
+	font-weight:500;
+	font-size: 1.2em;
+	
+}
+
+.bioSocial {
+	padding-left: 6px;
+		padding-right: 8px;
+	
 }

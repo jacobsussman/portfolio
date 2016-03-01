@@ -1,14 +1,16 @@
 <!doctype html>
 <html>
 <head>
-<title>Jacob Sussman</title>
+<title>About</title>
 <link rel="stylesheet" href="stylish.css">
-<link rel="stylesheet" href="unslider.css">
-<link rel="stylesheet" href="unslider-dots.css">
-<script src="jquery-2.1.4.min.js"></script>
+<script src="plugins/jquery-2.1.4.min.js"></script>
 <script src="script.js"></script>
-<script src="velocity.min.js"></script>
-<script src="isotope.pkgd.min.js"></script>
+<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+<script src="plugins/velocity.min.js"></script>
+<script src="plugins/isotope.pkgd.min.js"></script>
+<script src="plugins/unslider-min.js"></script>
+<link rel="stylesheet" href="plugins/unslider.css">
+<link rel="stylesheet" href="plugins/unslider-dots.css">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
@@ -17,13 +19,13 @@
 		
 		<ul id="mobileNav">
 			<li class="blue">
-				<a href="index.html">About</a>
+				<a href="about.html">about</a>
 			</li>
 			<li class="red">
-				<a href="portfolio.html">Portfolio</a>
+				<a href="index.html">portfolio</a>
 			</li>
 			<li class="green">
-				<a href="contact.html">Contact</a>
+				<a href="mailto:jacob@sussman.media">contact</a>
 			</li>
 		</ul>
 		
@@ -33,55 +35,69 @@
 			</h1>
 			<div id="mobileNavLink">
 				<a href="#">
-					<img id="hamburger" src="media/icons/Group.svg">
+					<img id="hamburger" src="../media/icons/Group.svg">
 				</a>
 			</div>
 			<ul id="desktopNav">
-				<li class="green">
-					<a href="about.html">About</a>
+				<li>
+					<a href="mailto:jacob@sussman.media">contact</a>
 				</li>
-				<li class="red">
-					<a href="index.html">Portfolio</a>
+				<li >
+					<a href="about.html">about</a>
 				</li>
-				<li class="blue">
-					<a href="contact.html">Contact</a>
+				<li>
+					<a href="index.html">portfolio</a>
 				</li>
+				
 			</ul>
+
 		</div>
-		
-		
 	</nav>
+	<div class="halfSpacer"></div>
+	<div class="portrait">
 	
-	<div id="bio">
-		<h3>I am a creative coder passionate about documentaries, digital journalism, and the intersection of technology and design.</h3>
+	<img class="profPic" src="media/photos/portrait.jpg">
 	</div>
-	<div id="skillz">
-		<div class="wrapper format">
-			<h3 class="left bold">Skills</h3>
-			<div id="skillSpacer"></div>
-			<h3 class="right">Web Dev.</h3>
-			<h3 class="left clearLeft padded">Film Production</h3>
-			<h3 class="right clear">UX Design</h3>
-			<h3 class="left clearLeft">Photography</h3>
-			<h3 class="right">Programming</h3>
-
-			
-			
-			<div id="skillSpacer"></div>
-			
-
-		</div>
-	</div>
-	
-	<div id="education">
-		<div class="wrapper format">
-		<h3  class="left bold">Education</h3>
-		<p class="full">B.A., Film Studies (expected)</p>
-
-		</div>
-	
+	<div class="bio">
+		<h2 class="left">Jacob Sussman</h2>
+		<h4 class="left">Interactive Designer + Filmmaker</h4>
+		<p>Jacob Sussman is a creative technologist passionate about documentaries, digital journalism, and the intersection of design, art, and technology.</p>
+		<p>He is available for UX and interaction design, web design and development, film production, and photography.</p>
+		<p>Education: Wesleyan University, Film Studies, 2017 (expected)</p>
+		<div class="halfSpacer"></div>
 		
+
+		<div class="bioIconBar">	
+				<a href="http://twitter.com/jsussle">
+					<img class="bioSocial" src="../media/icons/twitter.svg">
+				</a>
+			<a href="http://www.instagram.com/jsussl/">
+					<img class="bioSocial" src="../media/icons/instagram.svg">
+				</a>
+				<a href="http://vimeo.com/jacobsussman">
+					<img class="bioSocial" src="../media/icons/vimeo.svg">
+				</a>
+				<a href="http://linkedin.com/in/sussmanjacob">
+					<img class="bioSocial" src="../media/icons/linkedin.svg">
+				</a>
+				<a href="http://github.com/jsussl">
+					<img class="bioSocial" src="../media/icons/github.svg">
+				</a>
+				
+				
+				
+				
+		</div>
+		<a class="floatLeft" href="mailto:jacob@sussman.media"><p class="emailBio">jacob@sussman.media</p></a>
+<!--		<a href="media/Resume.pdf"><p>C.V.</p></a>-->
+
 	</div>
-	
-	</body>
+	<footer>	
+		
+<!--
+		<p class="footer">design + code by Jacob Sussman <span> © 2016</span>
+		</p>	
+-->
+	</footer>
+</body>
 </html>
