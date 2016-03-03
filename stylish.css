@@ -20,12 +20,41 @@ time, mark, audio, video {
 	
 }
 @font-face {
-  	font-family: "Cooper Hewitt";
+  	font-family: "Cooper Hewitt-Book";
 	src: url("font/CooperHewitt-Book.eot");
   	src: local("☺"),
     url("font/CooperHewitt-Book.woff") format("woff"),
     url("CooperHewitt-Book.svg") format("svg");
   }
+@font-face {
+  	font-family: "Cooper Hewitt-Medium";
+	src: url("font/CooperHewitt-Medium.eot");
+  	src: local("☺"),
+    url("font/CooperHewitt-Medium.woff") format("woff"),
+    url("CooperHewitt-Medium.svg") format("svg");
+  }
+@font-face {
+  	font-family: "Cooper Hewitt-BookItalic";
+	src: url("font/CooperHewitt-BookItalic.eot");
+  	src: local("☺"),
+    url("font/CooperHewitt-BookItalic.woff") format("woff"),
+    url("CooperHewitt-BookItalic.svg") format("svg");
+  }
+@font-face {
+  	font-family: "Cooper Hewitt-Light";
+	src: url("font/CooperHewitt-Light.eot");
+  	src: local("☺"),
+    url("font/CooperHewitt-Light.woff") format("woff"),
+    url("CooperHewitt-Light.svg") format("svg");
+  }
+@font-face {
+  	font-family: "Cooper Hewitt-LightItalic";
+	src: url("font/CooperHewitt-LightItalic.eot");
+  	src: local("☺"),
+    url("font/CooperHewitt-LightItalic.woff") format("woff"),
+    url("CooperHewitt-LightItalic.svg") format("svg");
+  }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -75,6 +104,7 @@ body {
 	text-align: center;
 	line-height: 1.5em;
 	font-weight: 500;
+	font-family: "Cooper Hewitt-Medium";
 }
 
 a {
@@ -88,6 +118,7 @@ a {
 
 
 h1 {
+	font-family: "Cooper Hewitt-Medium";
 	float: left;
 	font-size: 2.25em;
 	font-weight: 500;
@@ -124,7 +155,6 @@ h1 {
 
 #bio h3{
 	text-align: left;
-	font-style:italic;
 	font-weight: 200;
 	line-height: 1.55;
 	font-size: 1.40625em;
@@ -132,6 +162,7 @@ h1 {
 	margin:auto;
 	position:relative;
 	top:18px;
+	font-family: "Cooper Hewitt-LightItalic";
 
 }
 
@@ -144,6 +175,7 @@ h1 {
 }
 
 h2 {
+	font-family: "Cooper Hewitt-Medium", "Helvetica Neue", Helvetica, sans-serif;
 	width:100%;
 	font-size: 2.25em;
 	font-weight: 500;
@@ -211,10 +243,10 @@ h2 {
 
 
 h4 {
+	font-family: "Cooper Hewitt-BookItalic";
 	font-size:  1.40625em;
 	font-weight: 300;
 	margin: auto;
-	font-style: italic;
 	width:100%;
 	text-align: center;
 	padding-top: 10px;
@@ -276,6 +308,7 @@ footer {
 }
 
 h5 {
+	font-family: "Cooper Hewitt-Book";
 	font-size: 1.4em;
 	font-weight:400;
 	line-height: 1.8em;
@@ -287,7 +320,7 @@ footer p {
 	font-size: 0.875em;
 	font-weight: 200;
 	margin-bottom:8px;
-	
+	font-family: "Cooper Hewitt-Light";
 	
 }
 
@@ -331,6 +364,7 @@ button {
     font: inherit;
 	font-size: 1.40625em;
 	font-weight: 300;
+	font-family: "Cooper Hewitt-Book";
 	
 }
 
@@ -453,7 +487,7 @@ button:focus {
 }
 
 .summer {
-	background-image:  url("media/photos/film%20school.png");
+	background-image:  url("media/photos/film-school.jpg");
 }
 
 .grid-item h3 {
@@ -465,6 +499,7 @@ button:focus {
 	text-align: center;
 	font-size: 2.25em;
 	font-weight: 400;
+	font-family: "Cooper Hewitt-Book";
 }
 
 
@@ -531,6 +566,7 @@ h3 {
 }
 
 .bold {
+	font-family: "Cooper Hewitt-Book";
 	font-weight:400;
 	padding-bottom: -5px;
 	border: 2px solid white;
@@ -568,6 +604,7 @@ h3 {
 	position:relative;
 	top:18px;
 	font-weight: 300;
+	font-family: "Cooper Hewitt-Book";
 	
 }
 
@@ -580,8 +617,8 @@ h3 {
 	margin:auto;
 	position:relative;
 	top:20px;
-	font-style: italic;
 	font-weight:200;
+	font-family: "Cooper Hewitt-LightItalic";
 	
 	
 	
@@ -650,10 +687,10 @@ form p {
 	top: 18px;
 	color:white;
 	line-height: 2;
+	font-family: "Cooper Hewitt-Light";
 }
 
 .italic {
-	italic;
 }
 
 .full {
@@ -691,6 +728,7 @@ form p {
 	}
 	
 	#desktopNav{
+		font-family: "Cooper Hewitt-Book";
 		display: block;
 		float:right;
 		width: 50%;
@@ -819,6 +857,7 @@ form p {
 
 
 .footer {
+	font-family: "Cooper Hewitt-Book";
 	font-size: 1.25em;
 	font-weight: 400;
 	padding-top: 50px;
@@ -846,7 +885,7 @@ form p {
 }
 
 .pantry {
-	background-image:  url("media/photos/pantry.png");
+	background-image:  url("media/photos/pantry.jpg");
 
 }
 
@@ -864,6 +903,7 @@ form p {
 
 
 .content p {
+	font-family: "Cooper Hewitt-Book";
 	font-size: 1.2em;
 	font-weight:300;
 	padding-top:15px;
@@ -980,6 +1020,7 @@ iframe,
 }
 
 .oldH5 {
+	font-family: "Cooper Hewitt-Medium";
 	font-size: 1.4em;
 	font-weight:500;
 	padding-top:20px;
@@ -998,6 +1039,7 @@ iframe,
 }
 
 h6 {
+	font-family: "Cooper Hewitt-Medium";
 	font-size: 1.4em;
 	font-weight:500;
 	padding-top:20px;
@@ -1045,6 +1087,7 @@ h6 {
 }
 
 .bio p {
+	font-family: "Cooper Hewitt-Book";
 	font-size: 1.2em;
 	font-weight:300;
 	padding-bottom:15px;
@@ -1053,28 +1096,118 @@ h6 {
 	line-height: 1.8em;
 	
 }
+.floatLeft {
+	float:left;
+}
+
+@media only screen and (max-width: 1200px) {
+.bio p {
+	
+	width: 90%;
+	
+	
+}
+}
+.emailBio {
+	font-family: "Cooper Hewitt-Medium";
+	font-weight:500;
+	font-size: 1.2em;
+	margin-bottom: 200px;
+	
+}
+@media only screen and (max-width: 850px) {
+	
+	.bioIconBar {
+	float:left;
+		padding-left: 30px;
+		padding-bottom: 40px;
+	
+	}
+	.floatLeft {
+		float:right;
+		margin-right: 30px;
+	}
+	.emailBio {
+
+	float:right;
+	padding-right: 30px;
+
+	
+}
+	.profPic {
+		float: none;
+		position: static;
+	width:100%;
+	padding-right: 0px;
+		margin:auto;
+
+		
+}
+	.portrait{
+		width:40%;
+		margin: auto;
+		float:none;
+	}
+.bio {
+	width:100%;
+	text-align: center;
+	
+}
+	.bio h2 {
+	text-align: center;
+	
+}
+	.bio h4 {
+	text-align: center;
+		padding-top: 20px;
+				padding-bottom: 20px;
+
+	
+}
+	.bio p {
+	width:80%;
+		margin:auto;
+		margin-top: 10px;
+	
+}
+}
+@media only screen and (max-width: 550px) {
+	.emailBio {
+
+		float:left;
+		padding-right: 0px;
+		padding-left: 40px;
+
+
+	}
+	.floatLeft {
+				float:left;
+	}
+
+}
 
 .bioIconBar { float:left;
 	padding-right: 30px;
 		padding-top: 0px;
+			padding-bottom: 20px;
+
 	
 	  	-webkit-justify-content: flex-end; /* Safari */
 		justify-content:         flex-end;
 	
 }
 
-.floatLeft {
-	float:left;
-}
 
-.emailBio {
-	font-weight:500;
-	font-size: 1.2em;
-	
-}
+
 
 .bioSocial {
 	padding-left: 6px;
 		padding-right: 8px;
+	
+}
+
+.resume {
+	font-family: "Cooper Hewitt-Medium";
+	font-size: 1.3em;
 	
 }
